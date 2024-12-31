@@ -42,11 +42,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Data Scientist",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "AI Engineer",
       icon: mobile,
     },
     {
@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Data Analyst",
       icon: creator,
     },
   ];
@@ -116,55 +116,55 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Senior Data Scientist",
+      company_name: "Smollan",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Feb 2022 - Sept 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Designed and implemented a RAG system leveraging LLMs significantly improving the accuracy and relevance of AI-generated responses in customer support applications",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Built machine learning models",
+        "Utilized historical data for model training, ensuring accurate predictions. Built the front end using Django web framework..",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Data Scientist",
+      company_name: "HMD",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "April 2018 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developed and deployed a Machine Learning projects.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Reduced customer churn by 15% through predictive modeling and proactive intervention strategies, resulting in improved customer retention and satisfaction.",
+        "Improved operational efficiency by 10% through process optimization and automation, leveraging data insights to identify and eliminate bottlenecks..",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Data Scientist",
+      company_name: "KelCarl",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Jan 2018 - April 2018",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Conducted exploratory data analysis using pandas to gain insights into the data.",
+        "Utilized historical data for model training, ensuring accurate predictions. Built the front end using Streamlit web framework.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Used plotly dash for visualization. Leveraged Python, Excel, and SQL for dashboard creation..",
       ],
     },
     {
       title: "Full stack Developer",
-      company_name: "Meta",
+      company_name: "Texaco Five Agencies",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Aug 2017 - Dec 2017",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and maintained web applications using HTML,CSS, JS and other related technologies.",
+        "Developed and directed software system validation and testing methods.",
+        "Implemented responsive design and ensured cross-browser compatibility.",
+        "Oversaw the development of documentation of the code.",
       ],
     },
   ];
