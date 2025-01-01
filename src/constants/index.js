@@ -5,24 +5,25 @@ import {
     web,
     javascript,
     typescript,
+    python,
     html,
     css,
     reactjs,
-    redux,
+    smollan,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
+    flask,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    hmd,
+    texaco,
     carrent,
     jobit,
     tripguide,
-    threejs,
+    django,
+    kerlcarl,
+    
   } from "../assets";
   
   export const navLinks = [
@@ -81,8 +82,8 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Python",
+      icon: python,
     },
     {
       name: "Tailwind CSS",
@@ -97,16 +98,16 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Django",
+      icon: django,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "flask",
+      icon: flask,
     },
     {
       name: "docker",
@@ -118,9 +119,9 @@ import {
     {
       title: "Senior Data Scientist",
       company_name: "Smollan",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "Feb 2022 - Sept 2024",
+      icon: smollan,
+      iconBg: "#E6DEDD",
+      date: "Feb 2023 - Sept 2024",
       points: [
         "Designed and implemented a RAG system leveraging LLMs significantly improving the accuracy and relevance of AI-generated responses in customer support applications",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -131,7 +132,7 @@ import {
     {
       title: "Data Scientist",
       company_name: "HMD",
-      icon: tesla,
+      icon: hmd,
       iconBg: "#E6DEDD",
       date: "April 2018 - Jan 2023",
       points: [
@@ -144,8 +145,8 @@ import {
     {
       title: "Data Scientist",
       company_name: "KelCarl",
-      icon: shopify,
-      iconBg: "#383E56",
+      icon: kerlcarl,
+      iconBg: "#000000",
       date: "Jan 2018 - April 2018",
       points: [
         "Conducted exploratory data analysis using pandas to gain insights into the data.",
@@ -157,8 +158,8 @@ import {
     {
       title: "Full stack Developer",
       company_name: "Texaco Five Agencies",
-      icon: meta,
-      iconBg: "#E6DEDD",
+      icon: texaco,
+      iconBg: "#F8F8F8",
       date: "Aug 2017 - Dec 2017",
       points: [
         "Developed and maintained web applications using HTML,CSS, JS and other related technologies.",
