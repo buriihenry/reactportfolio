@@ -26,9 +26,12 @@ import hmd from "./company/hmd.png";
 import texaco from "./company/txc.jpg";
 import kerlcarl from "./company/kc.jpg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import chatbot from "./chat.png";
+import telegrambot from "./telegram.jpg";
+import api from "./api.png";
+import telemedai from "./telemedai.png";
+
+
 
 export {
   logo,
@@ -56,7 +59,8 @@ export {
   smollan,
   texaco,
   kerlcarl,
-  carrent,
-  jobit,
-  tripguide,
+  api,
+  chatbot,
+  telegrambot,
+  telemedai,
 };

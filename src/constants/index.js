@@ -18,9 +18,10 @@ import {
     docker,
     hmd,
     texaco,
-    carrent,
-    jobit,
-    tripguide,
+    api,
+    chatbot,
+    telegrambot,
+    telemedai,
     django,
     kerlcarl,
     
@@ -173,59 +174,59 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+        "I thought it was impossible to make a website as beautiful as our product, but Henry proved me wrong.",
+      name: "Jean Imbuka",
       designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      company: "Texaco Five Agencies",
+      image: "https://randomuser.me/api/portraits/men/16.jpg",
+    },
+    {
+      testimonial:
+        "I've never met a data scientist who truly builds cool dashboards and story telling with data like Henry.",
+      name: "Clement Matiku",
+      designation: "Manager",
+      company: "HMD",
+      image: "https://randomuser.me/api/portraits/men/30.jpg",
+    },
+    {
+      testimonial:
+        "Henry built amazing AI applications,that optimized our processes!",
+      name: "Kevin Wachira",
+      designation: "Ops Manager",
+      company: "Smollan",
+      image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Chat-with-docs",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "the app allows users to upload any type of PDF document and ask questions about its content. The application uses Llama-3.2 for LLM and HuggingFace embeddings for document indexing and querying. You can chat with the document and get real-time responses..",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "pinecone db",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "streamlit",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: chatbot,
+      source_code_link: "https://github.com/buriihenry/Chat-with-PDF.git",
     },
     {
-      name: "Job IT",
+      name: "API for Expense Tracker",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        " This is a RESTful API for an expense tracker application. The API is built using Django Rest Framework. It allows users to create, read, update, and delete expenses. The API is secured using JWT authentication..",
       tags: [
         {
-          name: "react",
+          name: "django",
           color: "blue-text-gradient",
         },
         {
@@ -233,33 +234,57 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "jwt",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: api,
+      source_code_link: "https://github.com/buriihenry/moneymapapi",
     },
+
     {
-      name: "Trip Guide",
+      name: "AI-Powered-chatbot",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        " Telegram bot designed to assist with various tasks. It is built using Python and leverages the python-telegram-bot library.",
       tags: [
         {
-          name: "nextjs",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "openai",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "axios",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: telegrambot,
+      source_code_link: "https://github.com/buriihenry/Telegram-Bot",
+    },
+
+
+    {
+      name: "TelemedAI",
+      description:
+        "TeleMed-Chatbot-Generative-AI is a Retrieval-Augmented Generation (RAG) based application designed to enhance telemedicine consultations. By leveraging generative AI techniques, the chatbot can understand and respond to queries,and provide medical information from the medical book journal(pdf).",
+      tags: [
+        {
+          name: "Javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "flask",
+          color: "green-text-gradient",
+        },
+        {
+          name: "python",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: telemedai,
+      source_code_link: "https://github.com/buriihenry/TeleMed-Chatbot-Generative-AI",
     },
   ];
   
